@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Core Backend
 fastapi
 uvicorn[standard]
@@ -32,3 +33,39 @@ plotly>=5.18.0
 scipy>=1.11.0
 numpy>=1.24.0
 openpyxl>=3.1.0
+=======
+# Core Backend
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+pydantic
+sqlalchemy
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# AI Services (latest compatible versions)
+google-generativeai
+google-cloud-aiplatform
+google-auth
+
+# Image
+Pillow
+
+# Frontend
+streamlit
+requests
+
+# Data
+pandas
+numpy
+matplotlib
+
+pandas>=2.0.0
+plotly>=5.18.0
+scipy>=1.11.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+>>>>>>> c8a1801fa0719189cc3ca6f14040b5458bb614e3
