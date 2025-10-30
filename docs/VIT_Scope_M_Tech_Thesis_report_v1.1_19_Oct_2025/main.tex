@@ -1,0 +1,265 @@
+% ----------------------------------------------------------------------- %
+% Master Thesis Template for M.Tech Programme, VIT Vellore Campus
+% Tex document prepared by Dr. SUDHAKAR. P, Dr. UMA PRIYA D and Dr. MALINI S
+% Version 00.01 published on : 17-10-2025
+% ----------------------------------------------------------------------------- %
+% import necessary packages
+\documentclass[12pt, english, onehalfspacing]{report}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage{ragged2e}
+\usepackage{titlesec}
+%\usepackage{natbib}
+\usepackage{array}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{subcaption}
+\usepackage{etoolbox}
+\usepackage{nomencl}
+\makenomenclature
+\usepackage{parskip}
+\usepackage{listings}
+%\usepackage[backend=biber,style=authoryear]{biblatex}
+%\addbibresource{mali.bib}
+\renewcommand{\familydefault}{\sfdefault}
+
+\pretocmd{\chapter}{\justifying}{}{}
+
+%\usepackage{draftwatermark}
+%\SetWatermarkText{DRAFT 1.0}
+%\SetWatermarkScale{0.4}
+
+% Font: Times New Roman
+\usepackage{newtxtext,newtxmath}
+
+% Line spacing
+\usepackage{setspace}
+\setstretch{1.5}   % 1.5 spacing
+
+% Margins
+%\usepackage[a4paper,top=50mm,bottom=25mm,left=30mm,right=25mm]{geometry}
+
+% Section formatting
+\usepackage{titlesec}
+
+% Chapter format: "Chapter 1" + Title
+\DeclareRobustCommand{\chaptertitleformat}[1]{\MakeUppercase{#1}}
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\fontsize{14pt}{16pt}\selectfont}
+  {\centering Chapter \thechapter}
+  {0pt}
+  {\centering\bfseries\fontsize{16pt}{18pt}\selectfont\chaptertitleformat}
+
+% Section: 14pt, Title Case, Bold
+\titleformat{\section}
+  {\normalfont\bfseries\fontsize{14pt}{16pt}\selectfont}
+  {\thesection}{1em}{}
+
+% Subsection: 12pt, Sentence case
+\titleformat{\subsection}
+  {\normalfont\fontsize{12pt}{14pt}\selectfont}
+  {\thesubsection}{1em}{}
+
+% Subsubsection: 12pt, Sentence case
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{12pt}{14pt}\selectfont}
+  {\thesubsubsection}{1em}{}
+
+% Captions for figures/tables (TNR, 11pt)
+\usepackage[font=small,labelfont=bf]{caption}
+\captionsetup{font={rm,footnotesize}} % ~11pt equivalent
+
+% Tables: ragged right alignment option
+\usepackage{array}
+\newcolumntype{R}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% For figures
+\usepackage{graphicx}
+
+\usepackage{nomencl}
+\renewcommand{\nomname}{}
+\renewcommand{\nomlabel}[1]{#1 \hfill}
+\makenomenclature
+
+%To control spacing above a new \paragraph
+
+%-------------------------------------------------------------------%	
+%            MARGIN SETTINGS  (Do not change!)
+%-------------------------------------------------------------------
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.5cm, % Inner margin
+	outer=2.0 cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%-------------------------------------------------------------------%	
+%           Thesis configurations (Enter your information here
+%-------------------------------------------------------------------
+
+
+\newcommand{\thesistitle}{Thesis title} % 
+\newcommand{\studentname}{Student name}
+\newcommand{\studentregno}{RegNo}
+\newcommand{\projsupervisor}{Dr. Project guide name}
+\newcommand{\projsupervisordesignation}{designation}
+\newcommand{\projsupervisorschool}{School of Computer Science and Engineering}
+\newcommand{\projstartdate}{dd-mm-yyyy} 
+\newcommand{\projenddate}{dd-mm-yyyy}
+\newcommand{\hodname}{Dr. HoD name}
+\newcommand{\hoddept}{HoD Department}
+\newcommand{\specialization}{Programme specialization}
+\newcommand{\thesisdate}{dd-mm-yyyy} % thesis submission date
+\newcommand{\thesismonth}{Month}
+\newcommand{\thesisyear}{Year}
+%-------------------------------------------------------------------
+
+\renewcommand{\nomlabel}[1]{#1 \hfill}
+
+% Group headings
+\renewcommand{\nomgroup}[1]{%
+   \item [\bfseries 
+   \ifstrequal{#1}{A}{\Large\textbf{List of Abbreviations}}{% 
+   \ifstrequal{#1}{S}{\Large\textbf{List of Symbols}}}% 
+   %\ifthenelse{\equal{#1}{A}}{\item[\Large\textbf{List of Abbreviations}]}{%
+   %\ifthenelse{\equal{#1}{S}}{\item[\Large\textbf{List of Symbols}]}}%
+]}%
+
+%--------------------  Thesis front matter     ----------------------------------------- 
+\begin{document}
+\pagestyle{plain}
+\pagenumbering{roman}
+\include{front-matter.tex}
+\include{declaration.tex}
+\include{certificate-guide.tex}
+\include{certificate-intern.tex} % comment if necessary
+\include{executive-summary.tex}
+\include{acknowledgement.tex}
+
+%-----------------------------------------------------------------
+% Table of content to be included 
+% List of figures
+% Symbols and Abbreviations
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\nomenclature[A]{\(AI\)}{Artificial Intelligence}
+\nomenclature[A]{\(ML\)}{Machine Learning}
+\nomenclature[S]{\(a\)}{Acceleration (m/s$^2$)}
+\nomenclature[S]{\(v\)}{Velocity (m/s)}
+\printnomenclature
+\newpage
+
+%--------  Thesis contents -----------------------------------
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter2-a} % included 
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
+
+%------ Bibliography ----------------------------------------
+%\bibliographystyle{apalike} 
+\bibliographystyle{apalike} % Or another desired style like unsrt, abbrv, alpha
+\bibliography{mali.bib} % Replace with your .bib filename (without .bib extension)
+%\printbibliography [title={REFERENCES}{\centering}]
+
+
+
+%------ Appendices ----------------------------------------
+\newpage
+\begin{center}
+\vspace*{5in}
+ {\Large \textbf{APPENDICES}}  
+\end{center}
+
+\newpage
+\begin{center}
+ {\Large \textbf{Appendix A}} \\\vspace*{0.5 cm}
+ {\Large \textbf{'Log' Table}}
+\end{center}
+ \begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Number} & \textbf{log\textsubscript{10}(Number)} \\
+\hline
+1 & 0.0000 \\
+2 & 0.3010 \\
+3 & 0.4771 \\
+4 & 0.6021 \\
+5 & 0.6990 \\
+6 & 0.7782 \\
+7 & 0.8451 \\
+8 & 0.9031 \\
+9 & 0.9542 \\
+10 & 1.0000 \\
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+ {\Large \textbf{Appendix A}} \\\vspace*{0.5 cm}
+ {\Large \textbf{SAMPLE CODE}}
+ 
+\end{center}
+\begin{lstlisting}
+/* C or C++ programming **/
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 5, b = 10;
+    cout << "Before swap: a = " << a << ", b = " << b << endl;
+    int temp = a;
+    a = b;
+    b = temp;
+    cout << "After swap: a = " << a << ", b = " << b << endl;
+    return 0;
+}
+
+/* Java programming **/
+public class SwapNumbers {
+    public static void main(String[] args) {
+        int a = 5, b = 10;
+        System.out.println("Before swap: a = " + a + ", b = " + b);
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println("After swap: a = " + a + ", b = " + b);
+    }
+}
+
+/* Python programming **/
+a = 5
+b = 10
+print(f"Before swap: a = {a}, b = {b}")
+a, b = b, a  # Pythonic swap
+print(f"After swap: a = {a}, b = {b}")
+
+/* Javascript programming **/
+let a = 5, b = 10;
+console.log(`Before swap: a = ${a}, b = ${b}`);
+let temp = a;
+a = b;
+b = temp;
+console.log(`After swap: a = ${a}, b = ${b}`);
+\end{lstlisting}
+%----------------------------------------------------------------- 
+
+%\section{Introduction}
+%\printbibliography
+
+\end{document}

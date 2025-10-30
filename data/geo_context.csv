@@ -1,0 +1,21 @@
+city,country,latitude,longitude,timezone,fashion_trend
+Mumbai,India,19.076,72.8777,Asia/Kolkata,Ethnic Fusion
+Delhi,India,28.7041,77.1025,Asia/Kolkata,Contemporary
+Bangalore,India,12.9716,77.5946,Asia/Kolkata,Tech Casual
+Chennai,India,13.0827,80.2707,Asia/Kolkata,Traditional Modern
+Kolkata,India,22.5726,88.3639,Asia/Kolkata,Cultural Chic
+Hyderabad,India,17.385,78.4867,Asia/Kolkata,Minimalist
+Pune,India,18.5204,73.8567,Asia/Kolkata,Urban Smart
+Ahmedabad,India,23.0225,72.5714,Asia/Kolkata,Colorful Bold
+Jaipur,India,26.9124,75.7873,Asia/Kolkata,Royal Heritage
+Surat,India,21.1702,72.8311,Asia/Kolkata,Textile Rich
+New York,USA,40.7128,-74.006,America/New_York,Street Fashion
+London,UK,51.5074,-0.1278,Europe/London,Classic British
+Paris,France,48.8566,2.3522,Europe/Paris,Haute Couture
+Tokyo,Japan,35.6762,139.6503,Asia/Tokyo,Minimalist Tech
+Dubai,UAE,25.2048,55.2708,Asia/Dubai,Luxury Modern
+Singapore,Singapore,1.3521,103.8198,Asia/Singapore,Asian Fusion
+Los Angeles,USA,34.0522,-118.2437,America/Los_Angeles,Casual Chic
+Sydney,Australia,-33.8688,151.2093,Australia/Sydney,Beachwear Elegant
+Toronto,Canada,43.6532,-79.3832,America/Toronto,Winter Layers
+Berlin,Germany,52.52,13.405,Europe/Berlin,Industrial Modern

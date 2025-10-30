@@ -1,0 +1,10 @@
+Component,Technology,Version,Purpose
+Backend Framework,FastAPI,0.104+,REST API server
+Database ORM,SQLAlchemy,2.0+,Object-relational mapping
+Database,SQLite/PostgreSQL,3.x / 14+,Data persistence
+Authentication,JWT + bcrypt,Latest,Secure auth
+LLM API,Google Gemini,1.5 Pro,Ad copy generation
+Image Gen API,Vertex AI Imagen,3,Image generation
+Frontend,Streamlit,1.28+,User interface
+Python,Python,3.9+,Core language
+Virtual Env,venv,Built-in,Dependency isolation

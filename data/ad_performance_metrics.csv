@@ -1,0 +1,51 @@
+ad_id,product_type,platform,views,clicks,conversions,ctr,conversion_rate,roi,target_audience,style_preference
+1,Kurta,Facebook,6563,1279,235,19.49,18.37,1.48,Millennials,Bold
+2,Jacket,Pinterest,35474,683,217,1.93,31.77,3.31,Millennials,Traditional
+3,Dress,Pinterest,48850,1531,143,3.13,9.34,1.67,Fashion Lovers,Traditional
+4,Accessories,TikTok,9575,2232,31,23.31,1.39,2.56,Budget Shoppers,Traditional
+5,Jacket,Pinterest,22827,2438,121,10.68,4.96,2.48,Fashion Lovers,Bold
+6,Jeans,Google Ads,28483,59,29,0.21,49.15,4.01,Luxury Buyers,Casual
+7,Accessories,Facebook,7469,2023,162,27.09,8.01,3.43,Gen Z,Elegant
+8,Jacket,Google Ads,9995,1068,27,10.69,2.53,2.93,Millennials,Bold
+9,Jeans,Pinterest,7343,137,171,1.87,124.82,2.55,Gen Z,Bold
+10,Kurta,Facebook,10126,690,176,6.81,25.51,2.61,Budget Shoppers,Minimalist
+11,Jacket,Pinterest,28137,1273,240,4.52,18.85,3.14,Millennials,Traditional
+12,Dress,Pinterest,29806,1200,27,4.03,2.25,1.68,Gen Z,Minimalist
+13,Kurta,Instagram,31253,315,212,1.01,67.3,2.12,Millennials,Elegant
+14,Jacket,Instagram,37415,2149,24,5.74,1.12,3.26,Millennials,Casual
+15,Kurta,Instagram,14246,735,206,5.16,28.03,1.94,Gen Z,Elegant
+16,Shoes,TikTok,16802,2231,66,13.28,2.96,1.48,Budget Shoppers,Minimalist
+17,Dress,TikTok,28922,1264,223,4.37,17.64,4.14,Budget Shoppers,Traditional
+18,Accessories,Google Ads,20762,2178,81,10.49,3.72,3.75,Fashion Lovers,Minimalist
+19,Jacket,Pinterest,5135,1266,223,24.65,17.61,1.73,Luxury Buyers,Minimalist
+20,Jeans,Facebook,16587,519,139,3.13,26.78,2.07,Gen Z,Bold
+21,Saree,Instagram,24047,1597,61,6.64,3.82,4.31,Millennials,Minimalist
+22,Kurta,Google Ads,3599,1024,116,28.45,11.33,2.47,Gen Z,Minimalist
+23,Kurta,Pinterest,4535,2292,146,50.54,6.37,2.61,Millennials,Traditional
+24,Shoes,Google Ads,37240,500,138,1.34,27.6,2.54,Budget Shoppers,Elegant
+25,Dress,Google Ads,26397,269,15,1.02,5.58,3.66,Gen Z,Traditional
+26,Accessories,Pinterest,24012,2231,22,9.29,0.99,3.9,Luxury Buyers,Bold
+27,Jeans,Facebook,26697,1587,142,5.94,8.95,3.91,Fashion Lovers,Elegant
+28,Jacket,Pinterest,38333,1828,17,4.77,0.93,3.01,Millennials,Traditional
+29,Dress,Google Ads,22930,2025,148,8.83,7.31,3.84,Fashion Lovers,Minimalist
+30,Dress,Facebook,46954,280,47,0.6,16.79,3.73,Gen Z,Bold
+31,Jeans,Facebook,34553,2409,156,6.97,6.48,1.78,Fashion Lovers,Bold
+32,Saree,Google Ads,10239,830,105,8.11,12.65,3.24,Budget Shoppers,Elegant
+33,Saree,Instagram,24201,2413,138,9.97,5.72,3.95,Budget Shoppers,Bold
+34,Jeans,Google Ads,10093,2220,187,22.0,8.42,2.5,Millennials,Casual
+35,Jeans,Google Ads,40418,1166,38,2.88,3.26,1.69,Fashion Lovers,Casual
+36,Dress,Instagram,35854,953,26,2.66,2.73,1.54,Gen Z,Elegant
+37,Saree,Google Ads,48934,768,115,1.57,14.97,3.57,Budget Shoppers,Traditional
+38,Shoes,Instagram,17165,956,191,5.57,19.98,3.38,Budget Shoppers,Minimalist
+39,Jacket,TikTok,16116,1845,81,11.45,4.39,3.28,Luxury Buyers,Elegant
+40,Jeans,Google Ads,14583,456,38,3.13,8.33,3.27,Luxury Buyers,Elegant
+41,Jeans,Google Ads,19609,847,144,4.32,17.0,3.4,Fashion Lovers,Casual
+42,Kurta,Facebook,5968,418,165,7.0,39.47,2.04,Fashion Lovers,Minimalist
+43,Shoes,Pinterest,13392,1073,139,8.01,12.95,2.25,Gen Z,Bold
+44,Jeans,Pinterest,30347,1539,222,5.07,14.42,1.66,Gen Z,Bold
+45,Dress,Pinterest,37239,2286,102,6.14,4.46,2.15,Budget Shoppers,Elegant
+46,Jacket,Facebook,34801,1755,52,5.04,2.96,2.03,Millennials,Bold
+47,Accessories,Pinterest,7595,1826,34,24.04,1.86,1.8,Gen Z,Elegant
+48,Kurta,Instagram,26264,1299,17,4.95,1.31,1.45,Millennials,Elegant
+49,Saree,Google Ads,45330,2478,24,5.47,0.97,2.26,Millennials,Traditional
+50,Jeans,TikTok,36030,2252,176,6.25,7.82,2.0,Budget Shoppers,Elegant

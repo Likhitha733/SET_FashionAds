@@ -1,0 +1,7 @@
+Metric,Min (ms),Median (ms),95th Percentile (ms),99th Percentile (ms),Max (ms)
+API Response Time,120,280,450,520,680
+Text Generation (Gemini),1100,1850,2650,2900,3200
+Image Generation (Imagen),8500,10200,13800,15200,16500
+Database Query,15,35,85,95,120
+Analytics Aggregation,45,120,280,320,400
+A/B Test Comparison,180,320,550,620,750
